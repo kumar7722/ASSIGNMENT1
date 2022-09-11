@@ -1,0 +1,175 @@
+*{
+    box-sizing:border-box;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom:0 ;
+}
+.p1{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+    
+    
+.div1{
+    padding-left: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+img{
+    height: 25px;
+}
+.img2{
+    display: block;
+    margin: 10px auto;
+}
+.hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.center{
+    text-align: center;
+    font-size: small;
+}
+.img3{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  filter: blur(3px);
+}
+.div2{
+    width: 80%;
+    margin:  auto auto auto auto ;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black
+    
+}
+.btn{
+    position: absolute;
+   
+    left: 50%;
+    bottom:0px;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    background-color:yellow;
+    border-radius:20px;
+    height: 30px;
+    margin:20px;
+}
+.bulb_image{
+    height: 200px;
+}
+.div3{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 200px;
+  white-space: nowrap;
+  
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    margin: 50px;
+    width: 70%;
+    margin-left: 120px;
+    margin-bottom: 5px;
+  }
+  
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; 
+    
+}
+  .img5{
+    height: 200px;
+    padding: auto;
+    margin: auto;
+  }
+  h5{
+    color:rgb(16, 117, 212)
+  }
+  h4{
+    text-align: center;
+    font-weight: 900;
+    
+  }
+.for_video{
+    background-color: rgba(228, 219, 219, 0.507);
+    height: 250px;
+    width: 500px;
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+}
+.video{
+    height: 70%;
+   display: block;
+   margin: auto;
+   
+}
+.friends{
+    width: 500px;
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+.btn2{
+    align-items:center;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border-style: none;
+    margin:10px auto;
+}
+.icons{
+    text-align: center;
+    
+}
+.twt{
+    margin: 10px;
+}
+.inst{
+    margin: 10px;
+}
+.fb{
+    margin: 10px;
+}
+.yt{
+    margin: 10px;
+}
+@media only screen and (min-width: 768px){
+    .img5{
+        margin-left:100px ;
+    }
+}
+@media only screen and(min-width:740px){
+    .column{
+        margin-right: 200px;
+    }
+}
+    
+    
